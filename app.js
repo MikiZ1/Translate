@@ -174,7 +174,7 @@ bot.on("messageCreate", async msg => {
   async function ping() {
     let botPing = Math.floor(msg.channel.guild.shard.latency);
     msg.channel.createMessage({embed: {
-      color:0xFFFFFF, description: `:satellite_orbital: ${botPing}ms`
+      color:0xFFFFFF, description: `PONG!`
     }})
   }
 
