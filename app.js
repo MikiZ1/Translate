@@ -174,7 +174,7 @@ bot.on("messageCreate", async msg => {
   async function ping() {
     let botPing = Math.floor(msg.channel.guild.shard.latency);
     msg.channel.createMessage({embed: {
-      color:0xFFFFFF, description: `PONG!`
+      color:#E6E6FA, description: `Miki is the best.`
     }})
   }
 
